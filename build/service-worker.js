@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/YuliyaAdamiv/KindHeart.git/precache-manifest.28ba4728b3579354543e3f0a1d17e2f3.js"
+  "/KindHeart/precache-manifest.8bf2743a41d67542568f610119400ffe.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/YuliyaAdamiv/KindHeart.git/index.html", {
+workbox.routing.registerNavigationRoute("/KindHeart/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
