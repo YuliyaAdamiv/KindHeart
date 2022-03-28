@@ -1,0 +1,41 @@
+.container{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.container:hover{
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+}
+
+.sq-label {
+    color:white;
+}
+  
+.content{
+      display: inline-block;
+      margin-top: 20px;
+      
+}
+.help{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.sq-creditcard{
+    position: absolute;
+    left:-115%;
+    top:125%;
+    width: 90%;
+    background: linear-gradient(to right,#ff4b2b,  #654ea3);
+    box-shadow: 0 0 12px #ff4b2b;
+    font-weight: bold;
+}
+.sq-fieldset {
+    padding:17px 24px 17px 20px;
+}
+
