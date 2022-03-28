@@ -1,10 +1,8 @@
 import React from "react";
-import SquarePaymentForm, {
-  CreditCardNumberInput,
-  CreditCardExpirationDateInput,
-  CreditCardCVVInput,
-  ContextConsumer
-} from "react-square-payment-form";
+import SquarePaymentForm, { ContextConsumer } from "react-square-payment-form";
+import CreditCardCVVInput from "./react-square-payment-form/lib/components/CreditCardCVVInput";
+import CreditCardExpirationDateInput from "./react-square-payment-form/lib/components/CreditCardExpirationDateInput";
+import CreditCardNumberInput from "./react-square-payment-form/lib/components/CreditCardNumberInput";
 import "react-square-payment-form/lib/default.css";
 import "./PaymentPage.css";
 
