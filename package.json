@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://github.com/YuliyaAdamiv/KindHeart.git",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
