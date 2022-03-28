@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0c3b36b.chunk.css",
+    "main.js": "/static/js/main.0904aaf0.chunk.js",
+    "main.js.map": "/static/js/main.0904aaf0.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.6e2dc32a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.6e2dc32a.js.map",
+    "static/css/2.ea48c431.chunk.css": "/static/css/2.ea48c431.chunk.css",
+    "static/js/2.fb9a6ad7.chunk.js": "/static/js/2.fb9a6ad7.chunk.js",
+    "static/js/2.fb9a6ad7.chunk.js.map": "/static/js/2.fb9a6ad7.chunk.js.map",
+    "static/js/3.1749d0fc.chunk.js": "/static/js/3.1749d0fc.chunk.js",
+    "static/js/3.1749d0fc.chunk.js.map": "/static/js/3.1749d0fc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5b7184fd5976cf09b757b37822256cbf.js": "/precache-manifest.5b7184fd5976cf09b757b37822256cbf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ea48c431.chunk.css.map": "/static/css/2.ea48c431.chunk.css.map",
+    "static/css/main.a0c3b36b.chunk.css.map": "/static/css/main.a0c3b36b.chunk.css.map",
+    "static/media/Geometria.ttf": "/static/media/Geometria.8c10fa25.ttf",
+    "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0f6e082f.otf"
+  }
+}
