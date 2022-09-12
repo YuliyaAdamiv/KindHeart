@@ -1,162 +1,159 @@
-.form-group{
-    margin-top:37px;
-   
+.form-group {
+  margin-top: 37px;
 }
-.center{
-    display: flex;
-    justify-content:center;
-    position: relative;
+.center {
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
-p{
-    font-size:12px;
-    line-height: 36px;
+p {
+  font-size: 12px;
+  line-height: 36px;
 }
-.main{ 
-    width:100%; 
+.main {
+  width: 100%;
 }
-h1{
-    margin-bottom: 25px;
-    font-size: 75px;
-    font-weight: bold;
-    margin-right: 70px;
+h1 {
+  margin-bottom: 25px;
+  font-size: 75px;
+  font-weight: bold;
+  margin-right: 70px;
 }
-.logotup{
-    margin-top:43px;
-    font-weight: bold;
-    color:#6fbbd3;
+.logotup {
+  margin-top: 43px;
+  font-weight: bold;
+  color: #6fbbd3;
 }
-.align-left { 
-    float: left;
-    width:50%; 
-    display:flex;
-    flex-direction: column;
+.align-left {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.color {
+  color: #003366;
+}
 
-} 
-.color{
-    color:#003366;
+.align-right {
+  float: right;
 }
-   
-.align-right{
-    float: right; 
- }
-.form{
-    margin-left: 115px;
+.form {
+  margin-left: 115px;
 }
-.form .container{
-        height:96px;
-        width: 186px;
-        margin-top:15px;
-        margin-right: 20px;
+.form .container {
+  height: 96px;
+  width: 186px;
+  margin-top: 15px;
+  margin-right: 20px;
 }
-.do{
-    height: 80px;
-    width: 80px;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    border: 2px solid black;
+.do {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
 }
 .do:hover {
-    background-color: purple;
-    color: white;
-    border: 1px solid purple;
+  background-color: purple;
+  color: white;
+  border: 1px solid purple;
 }
 
-.text{
-    display: flex;
-    flex-direction: row;
+.text {
+  display: flex;
+  flex-direction: row;
 }
-.name{
+.name {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+.name.e {
+  display: block;
+  margin-top: 25px;
+}
+button {
+  cursor: pointer;
+}
+.webmoney {
+  float: right;
+  margin-right: 30px;
+}
+.person {
+  background-color: #003366;
+  color: white;
+  border: 1px solid #003366;
+  margin-left: -13px;
+  width: 130px;
+}
+.person-ur {
+  background-color: white;
+  color: #003366;
+  border: 1px solid #003366;
+  width: 130px;
+}
+.fields {
+  margin-top: 55px;
+}
+.col-50 {
+  margin-left: -50px;
+}
+.col-70 {
+  margin-left: 70px;
+}
+.placeholder {
+  background-color: #006dcc;
+  color: aliceblue;
+}
+input::placeholder {
+  color: aliceblue;
+}
+.kind {
+  margin-top: 68px;
+  margin-left: 80px;
+}
+.section-button {
+  margin-top: 30px;
+}
+@media (max-width: 576px) {
+  h1 {
+    text-align: center;
+    margin-right: 0px;
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .col-50 {
+    margin-left: 50px;
+  }
+  .col-70 {
+    margin-left: 0;
+  }
+  h5 {
+    text-align: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1109px) {
+  .name,
+  .name.e {
     display: inline-block;
     vertical-align: middle;
     margin-left: 25px;
-    
+  }
+  h5 {
+    text-align: center;
+  }
 }
-.name.e{
-    display: block;
-    margin-top: 25px;
-}
-button{
-    cursor: pointer;
-}
-.webmoney{
-    float: right;
-    margin-right: 30px;
-}
-.person{
-    background-color: #003366;
-    color: white;
-    border: 1px solid #003366;
-    margin-left: -13px;
-    width:130px
-}
-.person-ur{
-    background-color: white;
-    color: #003366;
-    border: 1px solid #003366;
-    width:130px
-}
-.fields{
-    margin-top:55px;
-}
-.col-50{
-    margin-left: -50px;
-}
-.col-70{
-    margin-left: 70px;
-}
-.placeholder{
-    background-color: #006dcc;
-}
-.kind{
-    margin-top:68px;
-    margin-left: 80px;
-}
-.section-button{
-    margin-top:30px;
-}
-@media (max-width: 576px) { 
-    h1{
-        text-align:center;
-        margin-right: 0px;
-        font-size: 55px;
-    } 
-}
-
-
-@media (max-width: 768px) { 
-    h1{
-        text-align:center;
-        margin-right: 0px;
-    }
-    .col-50{
-        margin-left:50px;
-    }
-    .col-70{
-        margin-left:0;
-    }
-    h5{
-        text-align: center;
-    }
-    
-}
-@media (min-width: 769px) and (max-width:1109px){
-    .name,
-    .name.e {
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 25px;
-    }
-    h5{
-        text-align: center;
-    }
-}
-
 
 @media (max-width: 1110px) {
-    .name,
-    .name.e{
-        display:none;
-    }
- }
-
+  .name,
+  .name.e {
+    display: none;
+  }
+}
